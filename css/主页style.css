@@ -1,0 +1,317 @@
+body{
+<!--margin: 0;
+padding: 0;-->
+line-height: 1.42857143;
+}
+
+
+div#header{
+background-color: #7479D7;
+width:100%;
+height:70px;
+initial-scare=1.0;
+}
+
+div#logo{
+float:left;
+text-align:left;
+width:400px;
+height:55px;
+vertical-align: middle;
+padding:10px 5px 0 0;
+margin-left: 2%;
+font-weight: 900;
+font-size: 249%;
+color: white;
+display:inline-block;
+font-family:"KaiTi_GB2312",楷体_GB2312;
+}
+
+
+.navigation{
+float:right;
+}
+
+.navigation ul li{
+position:relative;
+margin:auto;
+padding: 5px 25px 5px 0;
+display:inline-block;
+text-decoration: none;
+}
+
+.navigation ul li a{
+text-decoration: none;
+padding: 5px 10px 5px 0;
+tect-align:center;
+width:80px;
+vertical-align: middle;
+font-weight: 650;
+font-size: 120%;
+}
+
+
+div#datetime{
+float:right;
+width:200px;
+padding:10px 0px 0px 0px;
+text-align:right;
+margin-right: 3%;
+font-weight: 750;
+font-size: 119%;
+color: #E5E4E6;
+}
+
+
+.bodytext{
+background:url(../image/back2.jpg) no-repeat;
+margin:auto;
+width:100%;
+display:inline-block;
+}
+
+div#infor{
+line-height: 2.5;
+background-color: rgba(245,246,206,0.6);
+width:1200px;
+height:680px;
+position:relative;
+margin: auto;
+top:2em;
+left:0;
+bottom:3em;
+right:0;
+}
+
+.inner{
+padding:10px;
+display:inline-block;
+}
+
+.in1{
+list-style-type: disc;
+position:relative;
+width:410px;
+height:300px;
+float:left;
+margin-left:3em;
+margin-top:2em;
+margin-right:0em;
+margin-bottom:10em;
+}
+
+.in1 h2{
+margin-left: 2em;
+font-weight: bold;
+}
+
+.in{
+width:auto;
+margin-top: 2em;
+margin-left: 2em;
+margin-bottom:2em;
+border-top: 1px solid brown;
+padding-top: 0.5em;
+}
+
+.in li{
+list-style-type: disc;
+display:inline-block;
+}
+
+.in-text{
+display:inline-block;
+padding: 5px 15px 5px 0;
+tect-align:center;
+width:210px;
+vertical-align: middle;
+font-size: 110%;
+}
+
+.in-text{
+list-style-type: disc;
+}
+
+.in2{
+position:relative;
+width:250px;
+height:250px;
+vertical-align: middle;
+float:right;
+margin-left:12em;
+margin-top:2em;
+margin-right:5em;
+margin-bottom:10em;
+}
+
+
+
+
+div#footer{
+height:70px;
+background:#7479D7;
+width:auto;
+position:relative;
+margin: auto;
+top:0;
+bottom:0;
+left:0;
+right:0;
+}
+
+a{
+text-decoration: none;
+}
+
+.linkes {
+list-style: none;
+margin: auto;
+margin: 0 90px 0 90px;
+padding: 0;
+padding-bottom: 0;
+padding-top:15px;
+height: 18px;
+text-align:center;
+}
+ 
+.linkes>li {
+display: inline-block;
+font-size: 12px;
+}
+ 
+
+.linkes>li+li::before{
+content: "|";
+   margin:0 8px;
+}
+
+
+
+
+div#my{
+display:inline-block;
+width:100%;
+margin:auto;
+text-align:center;
+}
+
+div#intro{
+background-color: rgba(245,246,206,0.8);
+width:210px;
+height:auto;
+float:left;
+margin:2em 1em 0 3em;
+font-size:10px;
+}
+
+p{
+text-indent:28px;
+text-align:left;
+font-size:105%
+}
+
+.bodytext #my1{
+text-decoration: none;
+background-color: rgba(245,246,206,0.8);
+float:no;
+width:900px;
+margin:auto;
+padding:10px;
+}
+
+.bodytext #my2{
+text-decoration: none;
+background-color: rgba(245,246,206,0.8);
+float:no;
+width:900px;
+margin:auto;
+text-align:center;
+padding:10px;
+}
+
+.bodytext #my2 p{
+text-align:center;
+}
+
+
+
+.bodytext h3{
+margin:3em 0 0 4em;
+color:#F9FBE5;
+}
+
+.container{
+width: 1000px;
+height: 450px;
+margin:60px auto;
+position: relative;
+}
+ 
+.container img{
+width:auto;
+height:140px;
+padding: 10px 10px 15px ;
+background:white;
+border: 1px solid #ddd;
+box-shadow: 2px 2px 3px rgba(50,50,50,0.4);
+}
+ 
+.pic{
+width: 200px;
+margin-right: 1%;
+}
+ 
+.container>img:hover{
+opacity:0.6;
+}
+
+
+
+
+
+.quarter{
+background-color: rgba(245,246,206,0.75);
+width:1000px;
+height:auto;
+display: inline-block;
+margin:35px 15px 0 15px;
+text-align:left;
+font-weight:200px;
+font-size:120%
+}
+
+.quarter h2{
+margin-left: 2em;
+font-weight: bold;
+}
+
+.quarter ul li{
+background-color: rgba(242,248,196,0.8);
+width:100%;
+height:30px;
+margin-right:3em;
+vertical-align: middle;
+list-style-type: none;
+background: url("../image/love.png") no-repeat 0rem 0rem;
+background-size: 1.2rem 1.2rem;
+text-indent: 2em;
+}
+
+.afterread{
+margin-left:15px;
+float:left;
+width:600px;
+height:300px;
+}
+
+.afterread h6{
+margin:0 0 1em 2em;
+font-size: 12px;
+}
+
+.poem{
+margin-right:15px;
+float:right;
+width:600px;
+height:300px;
+}
