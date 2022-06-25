@@ -8,7 +8,7 @@
       <p><b>邮箱：1437585289@qq.com</b></p>
     </td>
     <td width="25%">
-      <img src="myae2.png" width="100%">      % 插入证件照代码
+      <img src="myae2.jpg" width="100%">      % 插入证件照代码
     </td>
   </tr>
 </table>
